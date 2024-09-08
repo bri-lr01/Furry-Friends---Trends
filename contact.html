@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Furry Friends & Trends</title>
+    <link rel="icon" type="image/x-icon" href="cat-dog.png">
+    <link rel="stylesheet" href="general.css"/>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="contact.css"/>
+    <link rel="stylesheet" href="footer.css"/>
+</head>
+
+<body>
+    <header>
+        <h1>Furry Friends & Trends</h1>
+        <label for="circle_hamburger_checkbox">
+            <img src="circle-ellipsis.svg.svg" alt="Menu" id="circle_hamburger_image">
+        </label> 
+        <input type="checkbox" id="circle_hamburger_checkbox">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="photos.html">Photos</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active_nav">Contact Us</a>
+        </nav>
+    </header>
+    
+    <form id="contactform" method="post">
+     <label for="fname">First Name:</label>
+     <input type="text" id="fname" name="fname" autocomplete="given-name">
+     <label for="lname">Last Name:</label><br />
+     <input type="text" id="lname" name="lname" autocomplete="family-name" /><br />
+     <label for="email">Email:</label><br />
+     <input type="email" id="email" name="email" autocomplete="email" /><br />
+     <label for="mobile">Mobile:</label><br />
+     <input type="text" id="mobile" name="mobile" autocomplete="tel"/><br /><br />
+     <label for="message">Message:</label><br />
+     <textarea id="message" name="message"></textarea><br /><br />
+     <button type="submit">Submit</button>
+     <button type="reset">Reset</button>
+    </form>
+
+<footer>
+<p>
+    <span property="dct:title">Furry Friends & Trends</span> by 
+    <span property="cc:attributionName">Brianna La Rocca</span> is marked with 
+    <br>
+    <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" 
+    rel="license noopener noreferrer">CC0 1.0
+    <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt="">
+    </a>
+</p>
+<a href="https://www.flaticon.com/free-icons/veterinary" title="veterinary icons">Veterinary icons created by howcolour - Flaticon</a>
+</footer>
+
+</body>
+
+</html>
